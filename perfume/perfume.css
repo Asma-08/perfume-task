@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(30, 38%,92%);
+}
+section{
+    display: flex;
+    margin-left: 23%;
+    margin-top: 90px;
+
+   
+    
+}
+.hello{
+    font-family: 'Fraunces', serif;
+    margin-top: 10px;
+
+}
+.well{
+    display: flex;
+    padding-top: 3px;
+
+}
+.they{
+    margin-left: 25px;
+    text-decoration: line-through;
+    margin-top: 40px;
+}
+/* .them{
+    font-family: 
+    font-size: ;
+} */
+.week img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+
+}
+.right{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px ;
+    width: 220px;
+    background-color: hsl(0,0%,100%);
+    padding: 10px 60px;
+    height: 400px;
+}
+.set{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.them{
+    font-family: 'Fraunces', serif;
+    color:  hsl(158, 36%, 37%);
+    font-size: 30px;
+    
+}
+.tired{
+    background-color:hsl(158, 36%, 37%); 
+    border-color: hsl(158, 36%, 37%);
+    padding: 5px 45px;
+
+    border-radius: 5px;
+    color: white;
+    
+    margin-bottom: ;
+}
+.need{
+    padding-top: 5px;
+}
+span img{
+    padding-right: 7px;
+}
+    
+@media (max-width:375px) {
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
